@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+.bgimage{
+    position: relative;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 100px;
+}
+
+.card{
+    width: 325px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: opx 2px 4px rgba(35, 35, 35, 0.3);
+    overflow: hidden;
+    transition: transform 0.6s ease;
+
+}
+
+.card:hover{
+    transform: translateY(-20px);
+}
+
+.card img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+.card-content{
+    padding: 20px;
+}
+
+.card-content h1{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.card-content p{
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+}
+
+.card-button{
+    display: inline-block;
+    background-color: rgb(95, 23, 240);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+}
+
+.explore{
+    color: white;
+     text-align: center;
+      padding-top: 30px; 
+      font-size: 64px;
+      transition: 0.7s;
+      cursor: pointer;
+}
+
+.explore:hover{
+    color: lightgray;
+}
